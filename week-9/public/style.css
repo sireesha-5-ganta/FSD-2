@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    padding: 30px;
+    min-height: 100vh;
+}
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #eeeeee;
+    margin-bottom: 30px;
+}
+
+.form-container,
+.students-container {
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #5b3cc4;
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.4);
+}
+
+form button {
+    padding: 12px;
+    background-color: #5b3cc4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4527a0;
+}
+
+.student {
+    border-left: 5px solid #667eea;
+    background-color: #f5f3ff;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.student p {
+    margin: 8px 0;
+}
+
+.student button {
+    padding: 8px 14px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.student button:first-of-type {
+    background-color: #2196f3;
+}
+
+.student button:first-of-type:hover {
+    background-color: #1976d2;
+}
+
+.student button:last-of-type {
+    background-color: #e53935;
+}
+
+.student button:last-of-type:hover {
+    background-color: #c62828;
+}
+
